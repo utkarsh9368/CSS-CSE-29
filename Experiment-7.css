@@ -1,0 +1,41 @@
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    width: 95%;
+    margin: 20px;
+}
+
+.top {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.row1 {
+    margin-top: 20px;
+}
+
+.row2 {
+    margin-top: 20px;
+}
+
+.blue {
+    display: inline-block;
+    background-color: #cfe4ff;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.green {
+    display: inline-block;
+    background-color: #c8ffcf;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
