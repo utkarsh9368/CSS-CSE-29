@@ -1,0 +1,16 @@
+*{
+    background-color: antiquewhite;
+}
+
+.head{
+    color:rgb(79, 131, 120)
+}
+
+#box{
+  background-color: rgb(205, 179, 230);
+    color:brown;
+}
+button{
+    color:rgb(87, 151, 210);
+    background-color: rgb(9, 9, 9);
+}

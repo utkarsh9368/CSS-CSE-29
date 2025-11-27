@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 p{
     color:red
 }
@@ -18,24 +18,3 @@ div {
     margin: 10px 200px;
     border: 1px solid blue ;
 }
-=======
-p{
-    color:red
-}
-.jk{
-    color:darkblue
-}
-#jkc{
-    color:rgb(193, 123, 18)
-}
-div {
-    height: 200px;
-    width: 200px;
-    background-color: pink;
-    text-align: center;
-    align-content: center;
-    padding: 5px;
-    margin: 10px 200px;
-    border: 1px solid blue ;
-}
->>>>>>> 258252de107fddd285844d04c161867f8cb0bfd4

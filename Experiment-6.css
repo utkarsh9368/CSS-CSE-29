@@ -4,14 +4,12 @@ body {
     background-color: #f4f6fb;
     font-family: Arial;
 }
-
 .box {
     border: 2px solid black;
     margin: 30px;
     padding: 20px;
     background-color: #f4f6fb;
 }
-
 .header{
     background-color: #222;
     color: white;
@@ -20,7 +18,6 @@ body {
     padding: 15px 0;
     margin-bottom: 30px;
 }
-
 .product
  {
     width: 350px;
@@ -30,38 +27,32 @@ body {
     border: 1px solid #ddd;
     border-radius: 6px;
 }
-
 .product-img {
     width: 100%;
     border: 1px solid #ddd;
 }
-
 .product 
 h3 {
     margin-top: 10px;
     font-size: 18px;
 }
-
 .name {
     font-size: 14px;
     color: #555;
     margin: 0;
 }
-
 .price {
     margin-top: 10px;
     font-size: 18px;
     color: green;
     font-weight: bold;
 }
-
-.priceut {
-    font-size: 14px;
+.priceCut {
+    font-size: 20px;
     text-decoration: line-through;
     color: #999;
     margin-left: 8px;
 }
-
 .cart{
     width: 100%;
     padding: 12px;
@@ -73,4 +64,3 @@ h3 {
     cursor: pointer;
     border-radius: 4px;
 }
-
