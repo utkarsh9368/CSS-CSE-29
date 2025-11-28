@@ -1,0 +1,14 @@
+
+.float-img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+div{
+    border: 3px solid black;
+    background:pink;
+    margin-right:700px;
+    margin-bottom:-200px;
+    height:300px;
+}
