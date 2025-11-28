@@ -1,0 +1,19 @@
+.container{
+    border:3px solid black;
+    margin-right:950px;
+}
+
+.box{
+    display:inline-block;
+    width:150px; height:200px;
+    margin:10px; text-align:center;
+}
+.box1{
+    background-color: rgb(182, 182, 47);;
+}
+.box2{
+    background-color: rgb(216, 45, 96);
+}
+.box3{
+    background-color:lightblue;
+}

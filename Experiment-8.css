@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
 }
-
 .container {
     width: 90%;
     margin: 30px auto;
@@ -10,7 +9,6 @@ body {
     padding: 20px;
     border: 2px solid black;
 }
-
 .card {
     width: 250px;
     background: white;
@@ -19,7 +17,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 .circle {
     width: 70px;
     height: 70px;
@@ -32,12 +29,9 @@ body {
     margin: 0 auto 10px auto;
     font-weight: bold;
 }
-
 h3 {
     margin: 5px 0;
 }
-
 p {
     margin: 3px 0;
-    font-size: 14px;
-}
+    font-size: 14px;}
