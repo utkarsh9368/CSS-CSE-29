@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete CSS Notes</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            line-height: 1.7;
+        }
+        h2 {
+            margin-top: 40px;
+            color: darkblue;
+        }
+        .box { padding: 10px; margin: 20px 0; background: #f3f3f3; border: 1px solid #ccc; }
+        .flex-demo div { padding: 10px; background: lightblue; margin: 5px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Complete Notes (Beginner to Intermediate)</h1>
+
+    <!-- Basic CSS Properties -->
+    <h2>1. Basic CSS Properties</h2>
+
+    <p style="color: blue;" class="box">Color Property Example</p>
+    <p style="background-color: yellow;" class="box">Background Color Example</p>
+    <p style="font-size: 24px;" class="box">Font Size Example</p>
+    <p style="font-family: Arial;" class="box">Font Family Example</p>
+    <p style="font-weight: bold;" class="box">Font Weight Example</p>
+    <p style="font-style: italic;" class="box">Font Style Example</p>
+    <p style="text-align: center;" class="box">Text Align Center</p>
+    <p style="text-decoration: underline;" class="box">Underline Text</p>
+    <p style="letter-spacing: 4px;" class="box">Letter Spacing</p>
+    <p style="word-spacing: 20px;" class="box">Word Spacing Example</p>
+    <p style="line-height: 40px;" class="box">Line Height Example</p>
+    <p style="text-transform: uppercase;" class="box">uppercase text</p>
+    <p style="text-transform: lowercase;" class="box">LOWERCASE TEXT</p>
+    <p style="text-transform: capitalize;" class="box">capitalize each word</p>
+
+    <h2>2. Box Model</h2>
+    <div class="box">Padding Example</div>
+    <div class="box" style="margin: 20px; background: lightyellow;">Margin Example</div>
+    <div class="box" style="border: 2px solid black;">Border Example</div>
+    <div class="box" style="width: 200px; height: 50px; background: pink;">Width & Height</div>
+
+    <h2>3. Display Property</h2>
+    <p class="box" style="display: inline-block; background: lightgreen;">Inline-Block Example</p>
+    <p class="box" style="display: block;">Block Element</p>
+    <span class="box" style="display: inline;">Inline Element</span>
+
+    <h2>4. Flexbox (All Justify-Content Examples)</h2>
+
+    <h3>Flex Start (Default)</h3>
+    <div class="flex-demo" style="display: flex; justify-content: flex-start;" class="box">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h3>Flex End</h3>
+    <div class="flex-demo" style="display: flex; justify-content: flex-end;">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h3>Center</h3>
+    <div class="flex-demo" style="display: flex; justify-content: center;">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h3>Space Between</h3>
+    <div class="flex-demo" style="display: flex; justify-content: space-between;">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h3>Space Around</h3>
+    <div class="flex-demo" style="display: flex; justify-content: space-around;">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h3>Space Evenly</h3>
+    <div class="flex-demo" style="display: flex; justify-content: space-evenly;">
+        <div>Box</div><div>Box</div><div>Box</div>
+    </div>
+
+    <h2>5. CSS Selectors</h2>
+    <div class="box">Element Selector: p { }</div>
+    <div class="box">Class Selector: .class { }</div>
+    <div class="box">ID Selector: #id { }</div>
+    <div class="box">Universal Selector: * { }</div>
+    <div class="box">Group Selector: h1, p { }</div>
+    <div class="box">Descendant Selector: div p { }</div>
+    <div class="box">Child Selector: div > p { }</div>
+    <div class="box">Attribute Selector: input[type="text"] { }</div>
+
+    <h2>6. Other Useful CSS Properties</h2>
+    <p class="box" style="opacity: 0.5;">Opacity Example</p>
+    <p class="box" style="cursor: pointer;">Cursor Pointer</p>
+    <p class="box" style="transition: all 0.3s;">Transition Example</p>
+    <p class="box" style="z-index: 10; position: relative;">Z-index Example</p>
+    <p class="box" style="overflow: scroll; height: 50px;">Overflow Example Overflow Example Overflow Example</p>
+
+</body>
+</html>
