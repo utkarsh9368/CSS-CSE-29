@@ -1,0 +1,58 @@
+
+.navbar {
+    background: #222;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.right span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.content {
+    padding: 30px;
+}
+
+
+@media(max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin: 8px 0;
+    }
+
+    .right {
+        margin-top: 10px;
+    }
+}
