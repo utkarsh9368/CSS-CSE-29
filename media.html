@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Media Query</title>
+
+<style>
+
+/* -----------------------------------------------------
+   GRID CONTAINER
+----------------------------------------------------- */
+.container {
+    display: grid;  
+    /* Turns the div into a grid layout */
+
+    grid-template-columns: repeat(3, 1fr);  
+    /* 
+       repeat(3, 1fr) = 3 equal columns
+       1fr = 1 fraction of available space
+    */
+
+    gap: 15px;  
+    /* Space between each grid item (both row & column) */
+
+    padding: 20px;  
+    /* Space inside the container */
+}
+
+/* -----------------------------------------------------
+   GRID ITEM STYLE
+----------------------------------------------------- */
+.box {
+    background: rgb(133, 80, 80);
+    padding: 20px;     /* inner spacing */
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px; /* round corners */
+    color: white;
+}
+
+/* -----------------------------------------------------
+    MEDIA QUERIES (RESPONSIVE CODE)
+----------------------------------------------------- */
+
+/* 📌 TABLET VIEW — screen width 900px or smaller */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        /*
+           Change to 2 columns on tablets
+           repeat(2,1fr) → 2 equal columns
+        */
+    }
+}
+
+/* 📌 MOBILE VIEW — screen width 600px or smaller */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        /*
+           1 column only → full width boxes (mobile friendly)
+        */
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Grid + Media Query (Explained)</h2>
+
+<div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+</div>
+
+</body>
+</html>

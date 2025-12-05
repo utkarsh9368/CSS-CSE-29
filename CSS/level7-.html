@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+    border:2px solid black;
+    display:flex;
+    height:500px;
+}
+
+.item{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    /* flex-grow:1; */
+    /* flex-shrink: 1; */
+}
+
+.item1{
+    flex-shrink:2  /* This now works */;
+    align-self: flex-end;
+}
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item item1"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>    
+      <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>      
+    </div>
+</body>
+</html>
