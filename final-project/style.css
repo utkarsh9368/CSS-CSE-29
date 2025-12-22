@@ -140,6 +140,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    filter: brightness(0.9);
 }
 
 .hero-msg {
@@ -295,7 +296,7 @@ ul a {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
     .navbar {
         flex-direction: column;
         gap: 10px;
@@ -315,10 +316,6 @@ ul a {
     .panel-deals {
         display: none;
     }
-    .hero-section {
-        height: 200px;
-        background-position: center;
-    }
     .shop {
         justify-content: center;
     }
@@ -326,6 +323,21 @@ ul a {
         width: 90%;
         height: auto;
     }
+}
+
+@media (max-width: 500px) {
+  .hero-section {
+    height: 200px;
+    background-position: center;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+    background-position: center;
+  }
+
     footer {
         font-size: 0.7rem;
     }
@@ -338,7 +350,7 @@ ul a {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     .nav-search {
         width: 98%;
     }
@@ -351,5 +363,69 @@ ul a {
     .hero-msg {
         font-size: 0.75rem;
     }
-    
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222f3d;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.mobile-menu a {
+    display: block;
+    color: white;
+    padding: 12px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+.mobile-menu a:last-child {
+    border-bottom: none;
+}
+
+#menu-toggle:checked ~ .mobile-menu {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .nav-address,
+    .nav-signin,
+    .nav-cart {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .nav-logo {
+        width: 90px;
+    }
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+        order: 3;
+    }
 }
