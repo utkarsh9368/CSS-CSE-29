@@ -338,6 +338,8 @@ ul a {
     background-position: center;
   }
 
+}
+@media (max-width: 768px) {
     footer {
         font-size: 0.7rem;
     }
